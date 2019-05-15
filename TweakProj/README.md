@@ -1,4 +1,4 @@
-## usage
+## Usage
 
 ```bash
 $ brew install ldid
@@ -12,12 +12,16 @@ $ cd ~/Desktop
 $ nic.pl
 ```
 
-## edit Makefile
+## Edit Makefile
+or add to `$PATH`
 
+```bash
 export THEOS_DEVICE_IP=127.0.0.1
 export THEOS_DEVICE_PORT=10010
+```
 
-## install
+
+## Install
 ```bash
 $ make
 $ make package
